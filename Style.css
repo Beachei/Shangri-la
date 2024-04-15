@@ -1,6 +1,6 @@
 /************************************************************************************* Accueil **************************************************************************/
 .bg-image{
-    background-image: url(/Assets/Images/201.jpg);
+    background-image: url(./Assets/Images/201.jpg);
     background-size: cover;
     background-position: bottom;
 }
@@ -32,15 +32,15 @@ font-weight: 100;
     background: linear-gradient(rgba(0, 0, 0, 0),rgb(255, 255, 255));
 }
 .galerie-bg{
-    background-image: url(/Assets/Images/4625.jpg);
+    background-image: url(./Assets/Images/4625.jpg);
     background-size: cover;
 }
 .ourstory-bg{
-    background-image: url(/Assets/Images/4856.jpg);
+    background-image: url(./Assets/Images/4856.jpg);
     background-size: cover
 }
 .contact-bg{
-    background-image:url(/Assets/Images/4522.jpg);
+    background-image:url(./Assets/Images/4522.jpg);
     background-size: cover;
 }
 .footer-bg{
@@ -66,7 +66,7 @@ font-weight: 100;
 }
 /************************************************************************************* Services et activité **************************************************************************/
 .bg-image1{
-    background-image: url(/Assets/Images/Activité.jpg);
+    background-image: url(./Assets/Images/Activité.jpg);
     background-size: cover;
     background-position: bottom;
 
@@ -90,19 +90,19 @@ font-weight: 100;
 }
 @keyframes bg {
     0%{
-        background-image: url(/Assets/Images/baobabs-bg.jpg);
+        background-image: url(./Assets/Images/baobabs-bg.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(/Assets/Images/Baobab1.jpeg);
+        background-image: url(./Assets/Images/Baobab1.jpeg);
         background-size: cover;
     }
     75%{
-        background-image: url(/Assets/Images/Charette.png);
+        background-image: url(./Assets/Images/Charette.png);
         background-size: cover;
     }
     100%{
-        background-image: url(/Assets/Images/Baobab.png);
+        background-image: url(./Assets/Images/Baobab.png);
         background-size: cover;
     }
 }
@@ -121,19 +121,19 @@ font-weight: 100;
 }
 @keyframes bg1 {
     0%{
-        background-image: url(/Assets/Images/Quad.jpg);
+        background-image: url(./Assets/Images/Quad.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(/Assets/Images/Quad\ 1.jpg);
+        background-image: url(./Assets/Images/Quad\ 1.jpg);
         background-size: cover;
     }
     75%{
-        background-image: url(/Assets/Images/Moto.jpg);
+        background-image: url(./Assets/Images/Moto.jpg);
         background-size: cover;
     }
     100%{
-        background-image: url(/Assets/Images/Quad\ 2.jpg);
+        background-image: url(./Assets/Images/Quad\ 2.jpg);
         background-size: cover;
     }
 }
@@ -150,19 +150,19 @@ font-weight: 100;
 }
 @keyframes bg2 {
     0%{
-        background-image: url(/Assets/Images/Pirogue.jpg);
+        background-image: url(./Assets/Images/Pirogue.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(/Assets/Images/île\ rocheuse.png);
+        background-image: url(./Assets/Images/île\ rocheuse.png);
         background-size: cover;
     }
     75%{
-        background-image: url(/Assets/Images/Beach.jpg);
+        background-image: url(./Assets/Images/Beach.jpg);
         background-size: cover;
     }
     100%{
-        background-image: url(/Assets/Images/Corail\ 1.png);
+        background-image: url(./Assets/Images/Corail\ 1.png);
         background-size: cover;
     }
 }
@@ -179,19 +179,19 @@ font-weight: 100;
 }
 @keyframes bg3 {
     0%{
-        background-image: url(/Assets/Images/Pêche.png);
+        background-image: url(./Assets/Images/Pêche.png);
         background-size: cover;
     }
     50%{
-        background-image: url(/Assets/Images/Pêche\ diurne.jpg);
+        background-image: url(./Assets/Images/Pêche\ diurne.jpg);
         background-size: cover;
     }
     75%{
-        background-image: url(/Assets/Images/Pêche\ nocture.png);
+        background-image: url(./Assets/Images/Pêche\ nocture.png);
         background-size: cover;
     }
     100%{
-        background-image: url(/Assets/Images/Poisson\ pêcher.png);
+        background-image: url(./Assets/Images/Poisson\ pêcher.png);
         background-size: cover;
     }
 }
@@ -208,19 +208,19 @@ font-weight: 100;
 }
 @keyframes bg5 {
     0%{
-        background-image: url(/Assets/Images/Out\ the\ corail.jpg);
+        background-image: url(./Assets/Images/Out\ the\ corail.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(/Assets/Images/In\ the\ corail\ 2.jpg);
+        background-image: url(./Assets/Images/In\ the\ corail\ 2.jpg);
         background-size: cover;
     }
     75%{
-        background-image: url(/Assets/Images/In\ the\ corail.jpg);
+        background-image: url(./Assets/Images/In\ the\ corail.jpg);
         background-size: cover;
     }
     100%{
-        background-image: url(/Assets/Images/In\ the\ corail\ 1.jpg);
+        background-image: url(./Assets/Images/In\ the\ corail\ 1.jpg);
         background-size: cover;
     }
 }
@@ -237,19 +237,19 @@ font-weight: 100;
 }
 @keyframes bg6 {
     0%{
-        background-image: url(/Assets/Images/Plongé.jpg);
+        background-image: url(./Assets/Images/Plongé.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(/Assets/Images/Plongé1.jpg);
+        background-image: url(./Assets/Images/Plongé1.jpg);
         background-size: cover;
     }
     75%{
-        background-image: url(/Assets/Images/Plongé2.jpg);
+        background-image: url(./Assets/Images/Plongé2.jpg);
         background-size: cover;
     }
     100%{
-        background-image: url(/Assets/Images/Baleine.jpg);
+        background-image: url(./Assets/Images/Baleine.jpg);
         background-size: cover;
     }
 }
@@ -261,81 +261,81 @@ font-weight: 100;
     border-radius: 30px;
 }
 .baobab-bg{
-    background-image: url(/Assets/Images/baobabs-bg.jpg);
+    background-image: url(./Assets/Images/baobabs-bg.jpg);
     background-size: cover;
 }
 .Quad-bg{
-    background-image: url(/Assets/Images/Quad.jpg);
+    background-image: url(./Assets/Images/Quad.jpg);
     background-size: cover;
 }
 .Visite-bg{
-    background-image: url(/Assets/Images/Pirogue.jpg);
+    background-image: url(./Assets/Images/Pirogue.jpg);
     background-size: cover;
 }
 .Pêche-bg{
-    background-image: url(/Assets/Images/Pêche.png);
+    background-image: url(./Assets/Images/Pêche.png);
     background-size: cover;
 }
 .Snokerling-bg{
-    background-image: url(/Assets/Images/Out\ the\ corail.jpg);
+    background-image: url(./Assets/Images/Out\ the\ corail.jpg);
     background-size: cover;
 }
 .Plongé-bg{
-    background-image: url(/Assets/Images/Plongé.jpg);
+    background-image: url(./Assets/Images/Plongé.jpg);
     background-size: cover;
 }
 .Resto-bg{
-    background-image: url(/Assets/Images/Resto.jpg);
+    background-image: url(./Assets/Images/Resto.jpg);
     background-size: cover;
     background-position:center;
     animation: bg7 10s infinite;
 }
 .Bar-1{
-    background-image: url(/Assets/Images/Bar1.jpg);
+    background-image: url(./Assets/Images/Bar1.jpg);
     background-size: cover;
     background-position:center;
 }
 .Bar-2{
-    background-image: url(/Assets/Images/Bar2.jpg);
+    background-image: url(./Assets/Images/Bar2.jpg);
     background-size: cover;
     background-position:center;
 }
 @keyframes bg7 {
     0% {
-     background-image: url(/Assets/Images/Resto.jpg);
+     background-image: url(./Assets/Images/Resto.jpg);
      background-size: cover;
      background-position:center;
     }
     50%{
-     background-image: url(/Assets/Images/Bar.jpg);
+     background-image: url(./Assets/Images/Bar.jpg);
      background-size: cover;
      background-position:center;
     }
     100% {
-        background-image: url(/Assets/Images/Resto.jpg);
+        background-image: url(./Assets/Images/Resto.jpg);
         background-size: cover;
         background-position:center;
        }
 }
 /************************************************************************************ RESTO IMG ************************************************************************************/
 .Resto-bg1{
-    background-image: url(/Assets/Images/Resto\ 1.jpg);
+    background-image: url(./Assets/Images/Resto\ 1.jpg);
     background-size: cover;
 }
 .Resto-bg2{
-    background-image: url(/Assets/Images/Resto\ 2.jpg);
+    background-image: url(./Assets/Images/Resto\ 2.jpg);
     background-size: cover;
 }
 .Resto-bg3{
-    background-image: url(/Assets/Images/Resto3.jpg);
+    background-image: url(./Assets/Images/Resto3.jpg);
     background-size: cover;
 }
 .Resto-bg4{
-    background-image: url(/Assets/Images/Resto4.jpg);
+    background-image: url(./Assets/Images/Resto4.jpg);
     background-size: cover;
 }
 .Resto-bg5{
-    background-image: url(/Assets/Images/Resto5.jpg);
+    background-image: url(./Assets/Images/Resto5.jpg);
     background-size: cover;
 }
 .sh-1{
@@ -383,24 +383,24 @@ font-weight: 100;
 /************************************************************************************ DISPLAY ************************************************************************************/
 /************************************************************************************ CUISINE ************************************************************************************/
 .bg-image2{
-    background-image: url(/Assets/Images/resto6.jpg);
+    background-image: url(./Assets/Images/resto6.jpg);
     background-size: cover;
     background-position: center;
 }
 .cuisine-bg{
-    background-image: url(/Assets/Images/Cuisine-bg.jpg);
+    background-image: url(./Assets/Images/Cuisine-bg.jpg);
     background-size: cover;
 }
 .italian{
-    background-image: url(/Assets/Images/cuisine-italian.jpg);
+    background-image: url(./Assets/Images/cuisine-italian.jpg);
     background-size: cover;
 }
 .roumaine{
-    background-image: url(/Assets/Images/cuisine-Roumaine.jpg);
+    background-image: url(./Assets/Images/cuisine-Roumaine.jpg);
     background-size: cover;
 }
 .locale{
-    background-image: url(/Assets/Images/cuisine-Locale.jpg);
+    background-image: url(./Assets/Images/cuisine-Locale.jpg);
     background-size: cover;
 }
 .opa-black{
@@ -413,17 +413,17 @@ font-weight: 100;
 /************************************************************************************ CUISINE ************************************************************************************/
 /************************************************************************************ LOGEMENT ************************************************************************************/
 .bg-image3{
-    background-image: url(/Assets/Images/chambre-bg.jpg);
+    background-image: url(./Assets/Images/chambre-bg.jpg);
     background-size: 100%;
     background-position: center;
 
 }
 .bungalow{
-    background-image: url(/Assets/Images/Bungalow.jpg);
+    background-image: url(./Assets/Images/Bungalow.jpg);
     background-size: cover;
 }
 .bungalow1{
-    background-image: url(/Assets/Images/Bungalow1.jpg);
+    background-image: url(./Assets/Images/Bungalow1.jpg);
     background-size: cover;
 }
 /************************************************************************************ LOGEMENT ************************************************************************************/
