@@ -426,4 +426,12 @@ font-weight: 100;
     background-image: url(./Assets/Images/Bungalow1.jpg);
     background-size: cover;
 }
+.textshadow{
+    transition: all 1s;
+}
+.textshadow:hover{
+ /*    text-shadow: 1px 1px 5px black; */
+    color: white;
+    background: black;
+}
 /************************************************************************************ LOGEMENT ************************************************************************************/
