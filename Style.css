@@ -1,0 +1,429 @@
+/************************************************************************************* Accueil **************************************************************************/
+.bg-image{
+    background-image: url(/Assets/Images/201.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.titre{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:4em;
+}
+.soustitre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1em;
+}
+.extrait{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.2em;
+font-weight: 100;
+}
+.liste{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.2em;
+}
+.nave{
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+}
+.nave-bg{
+    background: linear-gradient(black,rgba(255, 255, 255, 0));
+}
+.header-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0),rgb(255, 255, 255));
+}
+.galerie-bg{
+    background-image: url(/Assets/Images/4625.jpg);
+    background-size: cover;
+}
+.ourstory-bg{
+    background-image: url(/Assets/Images/4856.jpg);
+    background-size: cover
+}
+.contact-bg{
+    background-image:url(/Assets/Images/4522.jpg);
+    background-size: cover;
+}
+.footer-bg{
+    background-color:rgba(2, 2, 3, 0.897);
+}
+.icons-color{
+    fill: cornsilk;
+}
+.tblack{
+    color: black;
+}
+.tblack:hover{
+    color: black;
+}
+.t-unstylled:hover{
+    color: white;
+}
+.btnscale{
+    transition: scale 1s;
+}
+.btnscale:hover{
+    scale: 1.1;
+}
+/************************************************************************************* Services et activité **************************************************************************/
+.bg-image1{
+    background-image: url(/Assets/Images/Activité.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+.margin{
+    margin-top: -200px;
+}
+.margin1{
+    margin-top: -50px;
+}
+/************************************************************************************ BAOBAB BACKGROUND  ************************************************************************************/
+.bg-animation{
+    box-shadow: 8px 10px 30px;
+    transition: scale 1s ease-in-out;
+    animation-timing-function: ease-in;
+}
+.bg-animation:hover{
+    scale: 1.2;
+    animation: bg 8s 1s forwards;
+    box-shadow: 8px 10px 40px 0px;
+}
+@keyframes bg {
+    0%{
+        background-image: url(/Assets/Images/baobabs-bg.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(/Assets/Images/Baobab1.jpeg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(/Assets/Images/Charette.png);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/Assets/Images/Baobab.png);
+        background-size: cover;
+    }
+}
+/************************************************************************************ BAOBAB BACKGROUND  ************************************************************************************/
+/************************************************************************************ QUAD et MOTO BACKGROUND  ************************************************************************************/
+
+.bg1-animation{
+    box-shadow: 8px 10px 30px;
+    transition: scale 1s ease-in-out;
+    animation-timing-function: ease-in;
+}
+.bg1-animation:hover{
+    scale: 1.2;
+    animation: bg1 8s 1s forwards;
+    box-shadow: 8px 10px 40px 0px;
+}
+@keyframes bg1 {
+    0%{
+        background-image: url(/Assets/Images/Quad.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(/Assets/Images/Quad\ 1.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(/Assets/Images/Moto.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/Assets/Images/Quad\ 2.jpg);
+        background-size: cover;
+    }
+}
+/************************************************************************************ QUAD et MOTO BACKGROUND  ************************************************************************************/
+/************************************************************************************ VISITE L'ÎLE ROCHEUSE  ************************************************************************************/
+.bg2-animation{
+    box-shadow: 8px 10px 30px;
+    transition: scale 1s ease-in-out;
+}
+.bg2-animation:hover{
+    scale: 1.2;
+    animation: bg2 8s 1s forwards;
+    box-shadow: 8px 10px 40px 0px;
+}
+@keyframes bg2 {
+    0%{
+        background-image: url(/Assets/Images/Pirogue.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(/Assets/Images/île\ rocheuse.png);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(/Assets/Images/Beach.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/Assets/Images/Corail\ 1.png);
+        background-size: cover;
+    }
+}
+/************************************************************************************ VISITE L'ÎLE ROCHEUSE  ************************************************************************************/
+/************************************************************************************ PÊCHE DIURNE AVEC LES PÊCHEUR LOCAUX ************************************************************************************/
+.bg3-animation{
+    box-shadow: 8px 10px 30px;
+    transition: scale 1s ease-in-out;
+}
+.bg3-animation:hover{
+    scale: 1.2;
+    animation: bg3 8s 1s forwards;
+    box-shadow: 8px 10px 40px 0px;
+}
+@keyframes bg3 {
+    0%{
+        background-image: url(/Assets/Images/Pêche.png);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(/Assets/Images/Pêche\ diurne.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(/Assets/Images/Pêche\ nocture.png);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/Assets/Images/Poisson\ pêcher.png);
+        background-size: cover;
+    }
+}
+/************************************************************************************ PÊCHE DIURNE AVEC LES PÊCHEUR LOCAUX ************************************************************************************/
+/************************************************************************************ SNORKELING DANS LE CORAIL ************************************************************************************/
+.bg5-animation{
+    box-shadow: 8px 10px 30px;
+    transition: scale 1s ease-in-out;
+}
+.bg5-animation:hover{
+    scale: 1.2;
+    animation: bg5 8s 1s forwards;
+    box-shadow: 8px 10px 40px 0px;
+}
+@keyframes bg5 {
+    0%{
+        background-image: url(/Assets/Images/Out\ the\ corail.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(/Assets/Images/In\ the\ corail\ 2.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(/Assets/Images/In\ the\ corail.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/Assets/Images/In\ the\ corail\ 1.jpg);
+        background-size: cover;
+    }
+}
+/************************************************************************************ SNORKELING DANS LE CORAIL ************************************************************************************/
+/************************************************************************************ PLONGÉE ET ACTIVITÉE NAUTIQUES ************************************************************************************/
+.bg6-animation{
+    box-shadow: 8px 10px 30px;
+    transition: scale 1s ease-in-out;
+}
+.bg6-animation:hover{
+    scale: 1.2;
+    animation: bg6 8s 1s forwards;
+    box-shadow: 8px 10px 40px 0px;
+}
+@keyframes bg6 {
+    0%{
+        background-image: url(/Assets/Images/Plongé.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(/Assets/Images/Plongé1.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(/Assets/Images/Plongé2.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/Assets/Images/Baleine.jpg);
+        background-size: cover;
+    }
+}
+/************************************************************************************ PLONGÉE ET ACTIVITÉE NAUTIQUES ************************************************************************************/
+.radius-top{
+    border-radius: 50px 50px 0 0;
+}
+.radius{
+    border-radius: 30px;
+}
+.baobab-bg{
+    background-image: url(/Assets/Images/baobabs-bg.jpg);
+    background-size: cover;
+}
+.Quad-bg{
+    background-image: url(/Assets/Images/Quad.jpg);
+    background-size: cover;
+}
+.Visite-bg{
+    background-image: url(/Assets/Images/Pirogue.jpg);
+    background-size: cover;
+}
+.Pêche-bg{
+    background-image: url(/Assets/Images/Pêche.png);
+    background-size: cover;
+}
+.Snokerling-bg{
+    background-image: url(/Assets/Images/Out\ the\ corail.jpg);
+    background-size: cover;
+}
+.Plongé-bg{
+    background-image: url(/Assets/Images/Plongé.jpg);
+    background-size: cover;
+}
+.Resto-bg{
+    background-image: url(/Assets/Images/Resto.jpg);
+    background-size: cover;
+    background-position:center;
+    animation: bg7 10s infinite;
+}
+.Bar-1{
+    background-image: url(/Assets/Images/Bar1.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.Bar-2{
+    background-image: url(/Assets/Images/Bar2.jpg);
+    background-size: cover;
+    background-position:center;
+}
+@keyframes bg7 {
+    0% {
+     background-image: url(/Assets/Images/Resto.jpg);
+     background-size: cover;
+     background-position:center;
+    }
+    50%{
+     background-image: url(/Assets/Images/Bar.jpg);
+     background-size: cover;
+     background-position:center;
+    }
+    100% {
+        background-image: url(/Assets/Images/Resto.jpg);
+        background-size: cover;
+        background-position:center;
+       }
+}
+/************************************************************************************ RESTO IMG ************************************************************************************/
+.Resto-bg1{
+    background-image: url(/Assets/Images/Resto\ 1.jpg);
+    background-size: cover;
+}
+.Resto-bg2{
+    background-image: url(/Assets/Images/Resto\ 2.jpg);
+    background-size: cover;
+}
+.Resto-bg3{
+    background-image: url(/Assets/Images/Resto3.jpg);
+    background-size: cover;
+}
+.Resto-bg4{
+    background-image: url(/Assets/Images/Resto4.jpg);
+    background-size: cover;
+}
+.Resto-bg5{
+    background-image: url(/Assets/Images/Resto5.jpg);
+    background-size: cover;
+}
+.sh-1{
+    box-shadow: 8px 10px 30px;
+}
+.btnscale1{
+    transition: all 1s;
+}
+
+.btnscale1:hover{
+    scale: 1.1;
+    box-shadow: 3px 3px 50px;
+    border-radius: 25px;
+}
+#textTitle{
+    animation: txt 10s infinite alternate;
+}
+@keyframes txt {
+    0%{
+        color: white;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    50%{
+        color: black;
+        background-color: white;
+    }
+    100%{
+        color: white;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+/************************************************************************************ RESTO IMG ************************************************************************************/
+/************************************************************************************ DISPLAY ************************************************************************************/
+.show{
+    animation: opacity 4s ease-in-out;
+}
+@keyframes opacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/************************************************************************************ DISPLAY ************************************************************************************/
+/************************************************************************************ CUISINE ************************************************************************************/
+.bg-image2{
+    background-image: url(/Assets/Images/resto6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cuisine-bg{
+    background-image: url(/Assets/Images/Cuisine-bg.jpg);
+    background-size: cover;
+}
+.italian{
+    background-image: url(/Assets/Images/cuisine-italian.jpg);
+    background-size: cover;
+}
+.roumaine{
+    background-image: url(/Assets/Images/cuisine-Roumaine.jpg);
+    background-size: cover;
+}
+.locale{
+    background-image: url(/Assets/Images/cuisine-Locale.jpg);
+    background-size: cover;
+}
+.opa-black{
+    transition: all 2s ease-in-out;
+}
+.opa-black:hover{
+    background: black;
+    color: white;
+}
+/************************************************************************************ CUISINE ************************************************************************************/
+/************************************************************************************ LOGEMENT ************************************************************************************/
+.bg-image3{
+    background-image: url(/Assets/Images/chambre-bg.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+.bungalow{
+    background-image: url(/Assets/Images/Bungalow.jpg);
+    background-size: cover;
+}
+.bungalow1{
+    background-image: url(/Assets/Images/Bungalow1.jpg);
+    background-size: cover;
+}
+/************************************************************************************ LOGEMENT ************************************************************************************/
