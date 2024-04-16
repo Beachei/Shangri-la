@@ -421,10 +421,12 @@ font-weight: 100;
 .bungalow{
     background-image: url(./Assets/Images/Bungalow.jpg);
     background-size: cover;
+    background-position: center;
 }
 .bungalow1{
     background-image: url(./Assets/Images/Bungalow1.jpg);
     background-size: cover;
+    background-position: center;
 }
 .textshadow{
     transition: all 1s;

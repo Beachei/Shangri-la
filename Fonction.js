@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         resto.classList.remove('d-block');
         resto.classList.add('d-none');
      })
+
     cuisinebtn.addEventListener("click", (e) => {
         cuisine.classList.remove('d-none');
         cuisine.classList.add('d-block');
