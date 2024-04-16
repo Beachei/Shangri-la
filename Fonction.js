@@ -1,5 +1,7 @@
 /* Restaurant */
 
+document.addEventListener("DOMContentLoaded", ()=>{
+
     const resto = document.getElementById("Resto&bar");
     const cuisine = document.getElementById("Cuisine");
     const restobtn = document.getElementById("restoBtn");
@@ -27,4 +29,17 @@
         resto.classList.remove('d-block');
         resto.classList.add('d-none');
     })
+
+    var elementsWithBackgroundImages = document.querySelectorAll('[style*="background-image"]');
+    
+    elementsWithBackgroundImages.forEach(function(element) {
+        var backgroundImage = element.style.backgroundImage;
+        var imageUrl = backgroundImage.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
+
+        var img = new Image();
+        img.src = imageUrl;
+    });
+
+})
+   
 
