@@ -94,15 +94,15 @@ font-weight: 100;
         background-size: cover;
     }
     50%{
-        background-image: url(./Assets/Images/Baobab1.jpeg);
+        background-image: url(./Assets/Images/Baobab1.jpg);
         background-size: cover;
     }
     75%{
-        background-image: url(./Assets/Images/Charette.png);
+        background-image: url(./Assets/Images/Charette.hpg);
         background-size: cover;
     }
     100%{
-        background-image: url(./Assets/Images/Baobab.png);
+        background-image: url(./Assets/Images/Baobab.jpg);
         background-size: cover;
     }
 }
@@ -154,7 +154,7 @@ font-weight: 100;
         background-size: cover;
     }
     50%{
-        background-image: url(./Assets/Images/île\ rocheuse.png);
+        background-image: url(./Assets/Images/île\ rocheuse.jpg);
         background-size: cover;
     }
     75%{
@@ -162,7 +162,7 @@ font-weight: 100;
         background-size: cover;
     }
     100%{
-        background-image: url(./Assets/Images/Corail\ 1.png);
+        background-image: url(./Assets/Images/Corail\ 1.jpg);
         background-size: cover;
     }
 }
@@ -179,7 +179,7 @@ font-weight: 100;
 }
 @keyframes bg3 {
     0%{
-        background-image: url(./Assets/Images/Pêche.png);
+        background-image: url(./Assets/Images/Pêche.jpg);
         background-size: cover;
     }
     50%{
@@ -187,11 +187,11 @@ font-weight: 100;
         background-size: cover;
     }
     75%{
-        background-image: url(./Assets/Images/Pêche\ nocture.png);
+        background-image: url(./Assets/Images/Pêche\ nocture.jpg);
         background-size: cover;
     }
     100%{
-        background-image: url(./Assets/Images/Poisson\ pêcher.png);
+        background-image: url(./Assets/Images/Poisson\ pêcher.jpg);
         background-size: cover;
     }
 }
@@ -273,7 +273,7 @@ font-weight: 100;
     background-size: cover;
 }
 .Pêche-bg{
-    background-image: url(./Assets/Images/Pêche.png);
+    background-image: url(./Assets/Images/Pêche.jpg);
     background-size: cover;
 }
 .Snokerling-bg{
@@ -435,6 +435,21 @@ font-weight: 100;
  /*    text-shadow: 1px 1px 5px black; */
     color: white;
     background: black;
+}
+.bm-vert{
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+}
+.boxeShadow{
+    box-shadow: 0px 10px 8px black;
+
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 5vh solid transparent;
+    border-left: 5vh solid white;
+    border-bottom: 5vh solid transparent; /* Couleur et hauteur du triangle */
 }
 /************************************************************************************ LOGEMENT ************************************************************************************/
 [style*="background-image"]{}
