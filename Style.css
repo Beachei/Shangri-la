@@ -1,8 +1,8 @@
 /************************************************************************************* Accueil **************************************************************************/
 .bg-image{
     background-image: url(./Assets/Images/201.jpg);
-    background-size: cover;
-    background-position: bottom;
+    background-size: 100vw 130vh;
+/*     height: 85vh; */
 }
 .titre{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -29,7 +29,7 @@ font-weight: 100;
     background: linear-gradient(black,rgba(255, 255, 255, 0));
 }
 .header-bg{
-    background: linear-gradient(rgba(0, 0, 0, 0),rgb(255, 255, 255));
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.171),rgb(255, 255, 255));
 }
 .galerie-bg{
     background-image: url(./Assets/Images/4625.jpg);
@@ -452,4 +452,54 @@ font-weight: 100;
     border-bottom: 5vh solid transparent; /* Couleur et hauteur du triangle */
 }
 /************************************************************************************ LOGEMENT ************************************************************************************/
+/************************************************************************************ VOYAGE ORGANISÈ ************************************************************************************/
+.bg-image4{
+    background-image: url(./Assets/Images/voyage-organisé.jpg);
+    background-size: 100vw 130vh;
+    height: 85vh;
+}
+.bgVoyage{
+    height: 35vh;
+}
+.tana{
+    background-image: url(./Assets/Images/RN7/Antananarivo.jpg);
+    background-size: cover;
+}
+.ambatolampy{
+    background-image: url(./Assets/Images/RN7/Ambatolampy.jpg);
+    background-size: cover;
+}
+.antsirabe{
+    background-image: url(./Assets/Images/RN7/Antsirabe.jpg);
+    background-size: cover;
+}
+.ambositra{
+    background-image: url(./Assets/Images/RN7/Ambositra.jpg);
+    background-size: cover;
+}
+.ranomafana{
+    background-image: url(./Assets/Images/RN7/Parc-ranomafana.jpg);
+    background-size: cover;
+}
+.ambalavao{
+    background-image: url(./Assets/Images/RN7/Ambalavao.jpg);
+    background-size: cover;
+}
+.isalo{
+    background-image: url(./Assets/Images/RN7/Parc-d-isalo.jpg);
+    background-size: cover;
+}
+.ilakaka{
+    background-image: url(./Assets/Images/RN7/Ilakaka.jpg);
+    background-size: cover;
+}
+.toliar{
+    background-image: url(./Assets/Images/RN7/Toliara.jpg);
+    background-size: cover;
+}
+.ambatomilo{
+    background-image: url(./Assets/Images/RN7/Ambatomilo.jpg);
+    background-size: cover;
+}
+/************************************************************************************ VOYAGE ORGANISÈ ************************************************************************************/
 [style*="background-image"]{}
