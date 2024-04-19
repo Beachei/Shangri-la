@@ -493,13 +493,107 @@ font-weight: 100;
     background-image: url(./Assets/Images/RN7/Ilakaka.jpg);
     background-size: cover;
 }
-.toliar{
+.toliara{
     background-image: url(./Assets/Images/RN7/Toliara.jpg);
     background-size: cover;
 }
 .ambatomilo{
     background-image: url(./Assets/Images/RN7/Ambatomilo.jpg);
     background-size: cover;
+}
+.ts{
+    text-shadow: 1px 3px 10px rgba(0, 0, 0, 0.699);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4em;
+}
+.x{
+    transform: translateX(-200%);
+}
+.cna{
+    animation: voyage 20s 2s infinite ease-in-out;
+}
+@keyframes voyage {
+    0%{
+        transform: translateX(0);
+    }
+    8.33333333%{
+        transform: translateX(-100%);
+    }
+    16.6666667%{
+        transform: translateX(-200%);
+    }
+    25%{
+        transform: translateX(-300%);
+    }
+    33.33333333%{
+        transform: translateX(-400%);
+    }
+    41.66666667%{
+        transform: translateX(-500%);
+    }
+    50%{
+        transform: translateX(-600%);
+    }
+    58.33333333%{
+        transform: translateX(-700%);
+    }
+    66.66666667%{
+        transform: translateX(-800%);
+    }
+    75%{
+        transform: translateX(-900%);
+    }
+    83.33333333%{
+        transform: translateX(-1000%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+#div #a{
+    animation: v1 infinite 2s 2s ease-in-out ;
+}
+#div #b{
+    animation: v1 infinite 4s 2s ease-in-out ;
+}
+#div #c{
+    animation: v1 infinite 6s 2s ease-in-out ;
+}
+#div #d{
+    animation: v1 infinite 8s 2s ease-in-out ;
+}
+#div #e{
+    animation: v1 infinite 10s 2s ease-in-out ;
+}
+#div #f{
+    animation: v1 infinite 12s 2s ease-in-out ;
+}
+#div #g{
+    animation: v1 infinite 14s 2s ease-in-out ;
+}
+#div #h{
+    animation: v1 infinite 16s 2s ease-in-out ;
+}
+#div #i{
+    animation: v1 infinite 18s 2s ease-in-out ;
+}
+#div #j{
+    animation: v1 infinite 20s 2s ease-in-out ;
+}
+#div #k{
+    animation: v1 infinite 22s 2s ease-in-out ;
+}
+#div #l{
+    animation: v1 infinite 24s 2s ease-in-out ;
+}
+@keyframes v1 {
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 0.8;
+    }
 }
 /************************************************************************************ VOYAGE ORGANISÈ ************************************************************************************/
 [style*="background-image"]{}
