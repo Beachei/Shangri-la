@@ -459,7 +459,7 @@ font-weight: 100;
     height: 85vh;
 }
 .bgVoyage{
-    height: 35vh;
+    height: 45vh;
 }
 .tana{
     background-image: url(./Assets/Images/RN7/Antananarivo.jpg);
@@ -510,7 +510,7 @@ font-weight: 100;
     transform: translateX(-200%);
 }
 .cna{
-    animation: voyage 20s 2s infinite ease-in-out;
+    animation: voyage 36s infinite ease-in-out;
 }
 @keyframes voyage {
     0%{
@@ -548,52 +548,22 @@ font-weight: 100;
     }
     100%{
         transform: translateX(0);
-    }
+    } 
 
 }
-#div #a{
-    animation: v1 infinite 2s 2s ease-in-out ;
+.aScale{
+    animation: v1 infinite 3.2s ease-in-out ;
 }
-#div #b{
-    animation: v1 infinite 4s 2s ease-in-out ;
-}
-#div #c{
-    animation: v1 infinite 6s 2s ease-in-out ;
-}
-#div #d{
-    animation: v1 infinite 8s 2s ease-in-out ;
-}
-#div #e{
-    animation: v1 infinite 10s 2s ease-in-out ;
-}
-#div #f{
-    animation: v1 infinite 12s 2s ease-in-out ;
-}
-#div #g{
-    animation: v1 infinite 14s 2s ease-in-out ;
-}
-#div #h{
-    animation: v1 infinite 16s 2s ease-in-out ;
-}
-#div #i{
-    animation: v1 infinite 18s 2s ease-in-out ;
-}
-#div #j{
-    animation: v1 infinite 20s 2s ease-in-out ;
-}
-#div #k{
-    animation: v1 infinite 22s 2s ease-in-out ;
-}
-#div #l{
-    animation: v1 infinite 24s 2s ease-in-out ;
-}
-@keyframes v1 {
+ @keyframes v1 {
     0%{
         scale: 1;
+        border-radius: 0;
     }
     100%{
         scale: 0.8;
+        border-radius: 3em;
     }
-}
+} 
+
 /************************************************************************************ VOYAGE ORGANISÈ ************************************************************************************/
 [style*="background-image"]{}
