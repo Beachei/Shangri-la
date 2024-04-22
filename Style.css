@@ -461,6 +461,7 @@ font-weight: 100;
 .bgVoyage{
     height: 45vh;
 }
+/* RN7 */
 .tana{
     background-image: url(./Assets/Images/RN7/Antananarivo.jpg);
     background-size: cover;
@@ -551,8 +552,106 @@ font-weight: 100;
     } 
 
 }
+/* RN7 */
+/* Itinèraire nature circulaire */
+.morondava{
+    background-image: url(./Assets/Images/NC/Morondava.jpg);
+    background-size: cover;
+}
+.miandrivazo{
+    background-image: url(./Assets/Images/NC/Miandrivazo.jpg);
+    background-size: cover;
+}
+.tsiribihina{
+    background-image: url(./Assets/Images/NC/Belo-sur-tsiribihina.jpg);
+    background-size: cover;
+}
+.bemaraha{
+    background-image: url(./Assets/Images/NC/Parc-de-Tsingy.jpg);
+    background-size: cover;
+}
+.manja{
+    background-image: url(./Assets/Images/NC/Manja.jpg);
+    background-size: cover;
+}
+.mer{
+    background-image: url(./Assets/Images/NC/Belo-sur-mer.jpg);
+    background-size: cover;
+}
+.anja{
+    background-image: url(./Assets/Images/NC/Reserve-nature-anja.jpg);
+    background-size: cover;
+}
+.fianarantsoa{
+    background-image: url(./Assets/Images/NC/Fianarantsoa.jpg);
+    background-size: cover;
+}
+.cna1{
+    animation: voyage1 54s infinite ease-in-out;
+}
+@keyframes voyage1 {
+    0%{
+        transform: translateX(0);
+    }
+    5.555555555555556%{
+        transform: translateX(-100%);
+    }
+    11.111111111111112%{
+        transform: translateX(-200%);
+    }
+    16.666666666666668%{
+        transform: translateX(-300%);
+    }
+    22.222222222222225%{
+        transform: translateX(-400%);
+    }
+    27.777777777777782%{
+        transform: translateX(-500%);
+    }
+    33.333333333333336%{
+        transform: translateX(-600%);
+    }
+    38.88888888888889%{
+        transform: translateX(-700%);
+    }
+    44.44444444444445%{
+        transform: translateX(-800%);
+    }
+    50.00000000000001%{
+        transform: translateX(-900%);
+    }
+    55.555555555555564%{
+        transform: translateX(-1000%);
+    }
+    61.11111111111112%{
+        transform: translateX(-1100%);
+    }
+    66.66666666666667%{
+        transform: translateX(-1200%);
+    }
+    72.22222222222223%{
+        transform: translateX(-1300%);
+    }
+    77.77777777777779%{
+        transform: translateX(-1400%);
+    }
+    83.33333333333334%{
+        transform: translateX(-1500%);
+    }
+    88.8888888888889%{
+        transform: translateX(-1600%);
+    }
+    94.44444444444446%{
+        transform: translateX(-1700%);
+    }
+    100%{
+        transform: translateX(-1700%);
+    }
+    
+}
+/* Itinèraire nature circulaire */
 .aScale{
-    animation: v1 infinite 3.2s ease-in-out ;
+    animation: v1 infinite 4s ease-in-out ;
 }
  @keyframes v1 {
     0%{
