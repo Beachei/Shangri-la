@@ -4,6 +4,10 @@
     background-size: 100vw 130vh;
 /*     height: 85vh; */
 }
+.logo{
+    width: 115px;
+    height: 115px;
+}
 .titre{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size:4em;
@@ -414,8 +418,8 @@ font-weight: 100;
 /************************************************************************************ LOGEMENT ************************************************************************************/
 .bg-image3{
     background-image: url(./Assets/Images/chambre-bg.jpg);
-    background-size: 100%;
-    background-position: center;
+    background-size: 100vw 130vh;
+    height: 85vh;
 
 }
 .bungalow{

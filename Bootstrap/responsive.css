@@ -4,3 +4,98 @@
         font-size:2.5em;
     }
 }
+@media only screen and (max-width:768px) {
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    .titre{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:2.5em;
+    }
+    .bg-image3{
+        height: 45vh;
+    }  
+    .bg-image4{
+        height: 45vh;
+    }  
+    .aScale{
+        animation: v1 infinite 6s ease-in-out ;
+    }
+    .nv{
+        font-size: small;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d{
+        font-size: large;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: bold;
+    }
+    @keyframes v1 {
+        0%{
+            scale: 1;
+            border-radius: 0;
+        }
+        50%{
+            scale: 0.9;
+            border-radius: 2em;
+        }
+        100%{
+            scale: 0.8;
+            border-radius: 3em;
+        }
+    } 
+}
+@media only screen and (max-width:1024px) and (min-width:769px){
+    .bg-image4{
+        height: 65vh;
+    } 
+    .nv{
+        font-size: 1.05em;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d{
+        font-size: large;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d{
+        font-size: large;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width:2560px) and (min-width:1441px){
+    .nv{
+        font-size: 2em;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d{
+        font-size: large;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: bold;
+    }
+}
