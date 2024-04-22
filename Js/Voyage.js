@@ -66,7 +66,5 @@ document.addEventListener("DOMContentLoaded", function(){
     setTimeout(() => {
         animScroll.classList.add('cna');
     }, 2000);
-    setTimeout(() => {
         setInterval(minuteur,1000);
-    }, 0000);
 })
