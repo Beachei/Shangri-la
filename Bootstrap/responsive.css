@@ -1,10 +1,16 @@
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:681px) {
     .titre{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size:2.5em;
     }
+    .pr{
+        font-size: 1em;
+    }
 }
 @media only screen and (max-width:768px) {
+    .ts{
+        font-size: 2em;
+    }
     .logo{
         height: 80px;
         width: 80px;
@@ -52,6 +58,12 @@
     } 
 }
 @media only screen and (max-width:1024px) and (min-width:769px){
+    .ts{
+        font-size: 3em;
+    }
+    .bg-image3{
+        height: 65vh;
+    } 
     .bg-image4{
         height: 65vh;
     } 
@@ -83,9 +95,44 @@
         font-weight: bold;
     }
 }
-@media only screen and (max-width:2560px) and (min-width:1441px){
+@media only screen and (min-width:1441px) and (max-width:1920px){
+    .bg-image3{
+        height: 75vh;
+    } 
+    .bg-image4{
+        background-size: 100vw 110vh;
+        height: 75vh;
+    }
+    .pr{
+        font-size: 1.5em;
+    }
+    .margin{
+        margin-top: -30vh;
+    }
     .nv{
-        font-size: 2em;
+        font-size: larger;
+    }
+    .st{
+        font-size: x-large;
+        font-weight: 900;
+    }
+    .d{
+        font-size: large;
+        font-weight: bold;
+    }
+    .circuit{
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width:1921px) and (max-width:2560px){
+    .bg-image3{
+        height: 105vh;
+    } 
+    .bg-image4{
+        height: 105vh;
+    }
+    .nv{
+        font-size: larger;
     }
     .st{
         font-size: x-large;
