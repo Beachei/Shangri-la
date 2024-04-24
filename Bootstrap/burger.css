@@ -1,0 +1,35 @@
+.line{
+    width: 42px;
+}
+.dline{
+    width: 28px;
+}
+/* #btnburger:hover #center{
+    width: 42px;
+} */
+.burger{
+    scale: 0.8;
+}
+.scaleBurger{
+    transition: all 1.3s;
+    scale: 0.9;
+} 
+.scaleBurgerNone{
+    transition: all 1s;
+    scale: 0.8;
+}
+.animBurger{
+    transition: all 1s;
+    width: 42px;
+}
+.animBurgerNone{
+    transition: all 1s;
+    width: 25px;
+}
+.fade-faste {
+    --transition: opacity 0.5s; /* Durée de l'animation fade */
+  }
+.show1{
+    transition: all 2s;
+    opacity: 0;
+}

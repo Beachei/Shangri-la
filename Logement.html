@@ -7,37 +7,67 @@
     <link rel="stylesheet" href="./Bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./Style.css">
     <link rel="stylesheet" href="./Bootstrap/responsive.css">
+    <link rel="stylesheet" href="./Bootstrap/burger.css">
     <link rel="shortcut icon" href="./Assets/Logo/Ambatomilo logo no bg.png" type="image/x-icon">
     <title>Nos Logement</title>
 </head>
 <body class="show">
         <!-------------------------------------- HEADER -------------------------------------------------------------->
         <div class="bg-image3">
-            <header class="container-fluid d-flex justify-content-center nave-bg h-50">
-               <nav class="d-flex col-11 h-50">
-                    <div class="col-2 h-75 col-xxl-3 d-flex align-items-center">
+            <header class="d-none d-sm-block container-fluid d-lg-flex justify-content-center nave-bg h-50">
+               <nav class="d-flex col-12 col-lg-11 h-50">
+                    <div class="col-2 h-75 mt-3 mt-sm-0 col-xxl-3 d-flex align-items-center">
                         <div>
                             <img class="btnscale logo"  src="./Assets/Logo/Ambatomilo logo no bg.png" alt="">
                         </div>
                     </div>
-                    <div class="col-10 col-xxl-9  h-75 d-flex align-items-center  ">
-                        <ul class="col-12 h-25 list-unstyled d-flex">
+                    <div class="col-10 col-xxl-9  h-75 d-flex align-items-center">
+                        <ul class="col-12 h-25 list-unstyled d-flex m-0">
                             <li class="col-2 text-center btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv" href="./index.html">Accueil</a></li>
                             <li class="col-2 text-center btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv" href="#">Logement</a></li>
                             <li class="col-2 text-center btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv" href="./Restaurant.html">Restauration</a></li>      
                             <li class="col-3 text-center btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv" href="./Services-activité.html">Nos services et Activité</a></li>                 
                             <li class="col-3 text-center btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv" href="./Voyage-organisé.html">Voyage Organisé</a></li>                       
                         </ul>
-                    </div>
+                    </div>                  
                 </nav>
             </header>
-            <div  class=" d-flex align-items-end h-50 ">
+            <header id="mobile header" class="nave-bg d-block d-sm-none h-50">
+                <nav class="col-12 d-flex justify-content-center">
+                    <div class="col-11 d-flex">
+                        <div class="col-10 align-self-center">
+                            <button id="btnburger" type="button" data-bs-toggle="collapse" data-bs-target="#burger" class="col-3 mt-1 border-0 bg-transparent burger">
+                                  <div class="bg-white boxeShadow radius py-1 my-1 line"></div>
+                                  <div id="center" class="bg-white boxeShadow radius py-1 my-1"></div>
+                                 <div class="bg-white boxeShadow radius py-1 my-1 line"></div>
+                            </button>                          
+                         </div>
+                         <div class="col-2 h-75">
+                            <div class="align-self-center">
+                                <img class="btnscale iconH"  src="./Assets/Logo/Ambatomilo logo no bg.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div id="burger" class="collapse fade">
+                    <div class="col-12 d-flex justify-content-center">
+                        <ul class="h-25 list-unstyled col-10">
+                            <li class="btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv1" href="./index.html">Accueil</a></li>
+                            <li class="btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv1" href="#">Logement</a></li>
+                            <li class="btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv1" href="./Restaurant.html">Restauration</a></li>      
+                            <li class="btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv1" href="./Services-activité.html">Nos services et Activité</a></li>                 
+                            <li class="btnscale"><a class="text-decoration-none nave fw-bold t-unstylled nv1" href="./Voyage-organisé.html">Voyage Organisé</a></li>                       
+                         </ul>
+                    </div>
+                </div>
+            </header>
+            <div  class="h-50 d-flex align-items-end">
                 <div style="height: 15%;" class="col-12 header-bg"></div>
             </div>
         </div>
         <!-------------------------------------- HEADER -------------------------------------------------------------->
         <!-------------------------------------- BODY -------------------------------------------------------------->
-        <div class="container-fluid">
+        <div class="container-fluid d-sm-block d-none ">
             <div class="d-flex margin justify-content-center ">
                 <div class="col-12 col-xl-10 col-xxxl-8 bg-white shadow radius-top">
                     <div class="py-5 mt-lg-5">
@@ -249,11 +279,218 @@
                 </div>
             </div>
         </div>
+        <div class="d-block  d-sm-none">
+                <div class="col-12 bg-white shadow radius-top">
+                    <div class="py-5">
+                        <h1 class="text-center titre fw-bold">Nos Logement</h1>
+                    </div>  
+                    <div class="container-fluid">
+                        <div class=" d-flex justify-content-center ">
+                            <div class="col-12 pb-5 d-flex  justify-content-center ">
+                                <div>
+                                    <div class="d-flex ">
+                                      <div class="col-3 d-flex align-items-center "> 
+                                        <hr class="col-12">
+                                      </div>
+                                      <div class="col-6 text-center ">
+                                        <h1 class="stl fw-bold">Notre bungalow simple</h1>
+                                      </div>
+                                      <div class="col-3 d-flex align-items-center "> 
+                                        <hr class="col-12">
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-12 bungalow1">
+                                        <div class="py-5"></div>
+                                        <div class="py-5"></div>
+                                        <div class="py-5"></div>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <div>
+                                            <div class="d-flex">
+                                                <div class="d-flex align-items-center "><img src="./Assets/Icons/person_FILL0_wght400_GRAD0_opsz24.svg" alt=""></div>
+                                                <div><h4 class="m-0">Personne maximum</h4></div>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <p>
+                                                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quaerat quo expedita eius quia eaque, porro quibusdam sit, voluptatem, rem accusantium odio velit. Autem dolorem facilis assumenda doloremque similique totam.
+                                                </p>
+                                            </div>
+                                            <br>
+                                            <div id="tcc2" class="d-block text-success ">
+                                                <div class="col-12 d-flex align-items-center">
+                                                    <h5 class="pr">Place restant :</h5>
+                                                    <div class="d-flex">
+                                                        <h5 id="ch-count2" class="px-2 pr">0</h5>
+                                                        <h5 class="pr">/ 18</h5>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div id="bgreen2" class="col-12 bg-success bm-vert d-flex">
+                                                    <div class="triangle"></div>
+                                                    <div class="col-8 offset-3 d-flex align-items-center">
+                                                     <h2 class="fw-bold col-11 text-white text-end "> Disponible</h2>
+                                                    </div>
+                                                </div> 
+                                                <div id="bred2" class="col-12 d-none  bg-danger bm-vert d-flex">
+                                                    <div class="triangle"></div>
+                                                    <div class="col-8 offset-3 d-flex align-items-center">
+                                                        <h2 class="fw-bold col-11 text-white text-end "> Complet</h2>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                            <br>
+                                            <div class="col-12 text-center">
+                                                <h5 role="button" class="py-3 textshadow ">Réservez dès Maintenant - À partir de 50€</h5>
+                                                <div class="d-none triangle1"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" d-flex justify-content-center ">
+                            <div class="col-12 pb-5 d-flex justify-content-center ">
+                                <div>
+                                    <div class="d-flex ">
+                                      <div class="col-2 d-flex align-items-center "> 
+                                        <hr class="col-12">
+                                      </div>
+                                      <div class="col-8 text-center ">
+                                        <h1 class="stl fw-bold">Notre bungalow Familiale</h1>
+                                      </div>
+                                      <div class="col-2 d-flex align-items-center "> 
+                                        <hr class="col-12">
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-12 bungalow1">
+                                        <div class="py-5"></div>
+                                        <div class="py-5"></div>
+                                        <div class="py-5"></div>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <div>
+                                            <div class="d-flex">
+                                                <div class="d-flex align-items-center "><img src="./Assets/Icons/person_FILL0_wght400_GRAD0_opsz24.svg" alt=""></div>
+                                                <div><h4 class="m-0">Personne maximum</h4></div>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <p>
+                                                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quaerat quo expedita eius quia eaque, porro quibusdam sit, voluptatem, rem accusantium odio velit. Autem dolorem facilis assumenda doloremque similique totam.
+                                                </p>
+                                            </div>
+                                            <br>
+                                            <div id="tcc1" class="text-success  ">
+                                                <div class="col-12 d-flex align-items-center  ">
+                                                    <h5 class="pr">Place restant :</h5>
+                                                    <div class="d-flex">
+                                                        <h5 id="ch-count1" class="px-2 pr">0</h5>
+                                                        <h5 class="pr">/ 3</h5>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div id="bgreen1" class="col-12 bg-success bm-vert d-flex">
+                                                    <div class="triangle"></div>
+                                                    <div class="col-8 offset-3 d-flex align-items-center">
+                                                     <h2 class="fw-bold col-11 text-white text-end "> Disponible</h2>
+                                                    </div>
+                                                </div> 
+                                                <div id="bred1" class="col-12 d-none bg-danger bm-vert d-flex">
+                                                    <div class="triangle"></div>
+                                                    <div class="col-8 offset-3 d-flex align-items-center">
+                                                     <h2 class="fw-bold col-11 text-white text-end "> complet</h2>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                            <br>
+                                            <div class="col-12 text-center"t>
+                                                <h5 role="button" class="py-3 textshadow">Réservez dès Maintenant - À partir de 50€</h5>
+                                                <div class="d-none triangle1"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" d-flex justify-content-center ">
+                            <div class="col-12 pb-5 d-flex justify-content-center ">
+                                <div>
+                                    <div class="d-flex ">
+                                      <div class="col-4 d-flex align-items-center "> 
+                                        <hr class="col-12">
+                                      </div>
+                                      <div class="col-4 text-center ">
+                                        <h1 class="stl">Notre Villa</h1>
+                                      </div>
+                                      <div class="col-4 d-flex align-items-center "> 
+                                        <hr class="col-12">
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-12 bungalow1">
+                                        <div class="py-5"></div>
+                                        <div class="py-5"></div>
+                                        <div class="py-5"></div>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <div class="container-fluid">
+                                            <div class="d-flex">
+                                                <div class="d-flex align-items-center "><img src="./Assets/Icons/person_FILL0_wght400_GRAD0_opsz24.svg" alt=""></div>
+                                                <div><h4 class="m-0">Personne maximum</h4></div>
+                                            </div>
+                                            <br>
+                                            <div>
+                                                <p>
+                                                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quaerat quo expedita eius quia eaque, porro quibusdam sit, voluptatem, rem accusantium odio velit. Autem dolorem facilis assumenda doloremque similique totam.
+                                                </p>
+                                            </div>
+                                            <br>
+                                            <div id="tcc" class="text-success ">
+                                                <div class="col-12 d-flex align-items-center  ">
+                                                    <h5 class="pr">Place restant :</h5>
+                                                    <div class="d-flex">
+                                                        <h5 id="ch-count" class="px-2 pr">1</h5>
+                                                        <h5 class="pr">/ 1</h5>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div id="bgreen" class="col-12 bg-success bm-vert d-flex">
+                                                    <div class="triangle"></div>
+                                                    <div class="col-8 offset-3 d-flex align-items-center">
+                                                     <h2 class="fw-bold col-11 text-white text-end "> Disponible</h2>
+                                                    </div>
+                                                </div> 
+                                                <div id="bred" class="col-12 d-none bg-danger bm-vert d-flex">
+                                                    <div class="triangle"></div>
+                                                    <div class="col-8 offset-3 d-flex align-items-center">
+                                                     <h2 class="fw-bold col-11 text-white text-end "> Complet</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="col-12  text-center ">
+                                                <h5 role="button" class="py-3 textshadow">Réservez dès Maintenant - À partir de 50€</h5>
+                                                <div class="d-none triangle1"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
         <!-------------------------------------- BODY -------------------------------------------------------------->
         <!-------------------------------------- FOOTER -------------------------------------------------------------->
         <div class="py-lg-5  footer-bg">
-            <div class="py-5 "></div>
-            <div class="container-fluid d-flex justify-content-center ">
+            <div class="py-2 py-sm-5 "></div>
+            <div class="container-sm d-flex justify-content-center ">
                 <div class="col-12 col-xxl-10 ">
                     <nav class="d-flex justify-content-center align-items-center ">
                         <ul class="col-12 col-xxl-11 list-unstyled d-flex justify-content-center">
@@ -264,20 +501,20 @@
                             <li class="col-3 text-center btnscale"><a class="text-decoration-none fw-bold nave t-unstylled nv" href="./Voyage-organisé.html">Voyage Organisé</a></li>
                         </ul>
                    </nav>           
-                        <div class="py-4 mb-lg-3 "></div>        
-                        <div class="d-flex  justify-content-center ">
+                        <div class="py-2 py-sm-4 mb-sm-3 "></div>        
+                        <div class="d-flex justify-content-center ">
                             <nav class="d-flex justify-content-center align-items-center col-10">
-                                <ul class="col-8 list-unstyled d-flex justify-content-center">
-                                    <li class="col-2 d-flex justify-content-center "><a href=""><img class="btnscale" width="30" height="30" class="icons-color" src="./Assets/Icons/facebook.svg" alt=""></a></li>
-                                    <li class="col-2 d-flex justify-content-center "><a href=""><img class="btnscale" width="30" height="30" src="./Assets/Icons/instagram.svg" alt=""></a></li>
-                                    <li class="col-2 d-flex justify-content-center "><a href=""><img class="btnscale" width="30" height="30" src="./Assets/Icons/youtube.svg" alt=""></a></li>
-                                    <li class="col-2 d-flex justify-content-center "><a href=""><img class="btnscale" width="30" height="30" src="./Assets/Icons/tripadvisor_icon.svg" alt=""></a></li>
+                                <ul class="col-12 col-sm-8 list-unstyled d-flex justify-content-center">
+                                    <li class="col-2 d-flex justify-content-center "><a class="d-flex justify-content-center" href=""><img class="btnscale iconFf" src="./Assets/Icons/facebook.svg" alt=""></a></li>
+                                    <li class="col-2 d-flex justify-content-center "><a class="d-flex justify-content-center" href=""><img class="btnscale iconFf" src="./Assets/Icons/instagram.svg" alt=""></a></li>
+                                    <li class="col-2 d-flex justify-content-center "><a class="d-flex justify-content-center" href=""><img class="btnscale iconFf" src="./Assets/Icons/youtube.svg" alt=""></a></li>
+                                    <li class="col-2 d-flex justify-content-center "><a class="d-flex justify-content-center" href=""><img class="btnscale iconF"  src="./Assets/Icons/tripadvisor_icon.svg" alt=""></a></li>
                                 </ul>
                            </nav>   
                         </div>
-                    <div class="py-4"></div>
+                    <div class="py-2 py-sm-4"></div>
                     <div>
-                        <p class="text-center text-white">2023 © SHANGRI-LA LODGE | AMBATOMILO | MADAGASCAR
+                        <p class="text-center text-white nv">2023 © SHANGRI-LA LODGE | AMBATOMILO | MADAGASCAR
                         </p>
                     </div>
                 </div>
@@ -287,6 +524,7 @@
         <!-------------------------------------- FOOTER -------------------------------------------------------------->
         <script src="./Bootstrap/bootstrap.js"></script>
         <script src="./Js/Logement.js"></script>
+        <script src="./Js/Nav.js"></script>
     
 </body>
 </html>

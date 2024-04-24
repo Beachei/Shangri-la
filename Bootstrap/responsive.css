@@ -1,13 +1,57 @@
-@media only screen and (max-width:681px) {
+@media (max-width:576px) {
+    .bg-image3{
+        height: 45vh;
+    }  
+    .bg-image4{
+        height: 45vh;
+    } 
+    .d-mbl-none{
+        display: none;
+    }
     .titre{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size:2.5em;
     }
+    .stl{
+        font-size: 1.3em;
+    }
     .pr{
         font-size: 1em;
     }
+    .nv{
+        font-size: 0.5em;
+    }
+    .nv1{
+        font-size: 0.8em;
+    }
+    .iconFf{
+        width: 55%;
+        height: 55%;
+    }
+    .iconF{
+        width: 60%;
+        height: 60%;
+    }
+    .iconH{
+        width: 100%;
+        height: 100%;
+    }
+    p{
+        font-size: x-small;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+    h4{
+        font-size: large;
+    }
+    h5{
+        font-size: 1em;
+    }
+
 }
-@media only screen and (max-width:768px) {
+
+@media only screen and (max-width:768px) and (min-width:577px){
     .ts{
         font-size: 2em;
     }
