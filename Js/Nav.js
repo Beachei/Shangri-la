@@ -1,25 +1,45 @@
 document.addEventListener("DOMContentLoaded", function(){
-    const btnBurger = document.getElementById("btnburger");
-    const baton = document.getElementById("center");
-    const burger = document.getElementById("burger");
-    baton.classList.add("dline");
-    btnBurger.addEventListener("touchstart",function(){
-        if(burger.classList.contains("show")){
-            console.log("container")
-            baton.classList.add("animBurgerNone");
-            btnBurger.classList.add("scaleBurgerNone");
-            baton.classList.remove("animBurger");
-            btnBurger.classList.remove("scaleBurger");
-            burger.classList.add("show1");
-        }
-        else{
-            console.log("no collapse")
-            baton.classList.add("animBurger");
-            btnBurger.classList.add("scaleBurger");
-            baton.classList.remove("animBurgerNone");
-            btnBurger.classList.remove("scaleBurgerNone");
-            burger.classList.remove("show1");
-        }
-
+    const btnBurger = Array.from(document.querySelectorAll(".btnburger"))
+    const baton = Array.from(document.querySelectorAll(".centerbg"));
+    const burger = Array.from(document.querySelectorAll(".burger1"));
+     baton.map(function(battonBurger){
+       battonBurger.classList.add("dline")
+       console.log("ok")
     })
+     burger.map(function(brg2){
+        brg2.classList.add("d-n")
+    })
+    btnBurger.map(function(btnNave){
+        btnNave.addEventListener('click', function(){
+            burger.map(function(burg){
+                burg.classList.toggle("d-n");
+                burg.classList.add("d-Anim");
+                
+                if(burg.classList.contains('d-n')){
+                    console.log("d-n")
+                    baton.map(function(bton){
+                        bton.classList.add("animBurgerNone")
+                        bton.classList.remove("animBurger")
+                    })
+                    btnBurger.map(function(btnbg){
+                        btnbg.classList.add("scaleBurgerNone")
+                        btnbg.classList.remove("scaleBurger")
+                    })
+                    burg.classList.add("d-Animreverse");
+                    burg.classList.remove("d-Animreverse");
+                }else{
+                    console.log("d-block")
+                    baton.map(function(bton){
+                        bton.classList.add("animBurger")
+                        bton.classList.remove("animBurgerNone")
+                    })
+                    btnBurger.map(function(btnbg){
+                        btnbg.classList.add("scaleBurger")
+                        btnbg.classList.remove("scaleBurgerNone")
+                    })
+                }
+            })
+        })
+    })
+    
 })

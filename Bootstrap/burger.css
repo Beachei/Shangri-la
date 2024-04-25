@@ -24,12 +24,40 @@
 }
 .animBurgerNone{
     transition: all 1s;
-    width: 25px;
+    width: 28px;
 }
-.fade-faste {
-    --transition: opacity 0.5s; /* Durée de l'animation fade */
+.d-n{
+    transition: all 2s;
+    display: none;
+    opacity: 0;
+}
+.d-Anim {
+    animation: dne 3s forwards;
+  }
+  @keyframes dne {
+    0%{
+        height: 0;
+        opacity: 0;
+    }
+    100%{
+        height: 100px;
+        opacity: 1;
+    }
+  }
+.d-Animreverse {
+    animation: dne1 3s alternate-reverse;
+  }
+  @keyframes dne1 {
+    0%{
+        height: 0;
+        opacity: 0;
+    }
+    100%{
+        height: 100px;
+        opacity: 1;
+    }
   }
 .show1{
-    transition: all 2s;
+    transition: all 2s linear;
     opacity: 0;
 }
