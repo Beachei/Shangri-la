@@ -9,30 +9,29 @@ document.addEventListener("DOMContentLoaded", function(){
     const h = document.querySelectorAll('.h');
     const i = document.querySelectorAll('.i');
     const j = document.querySelectorAll('.j');
-    const k = document.querySelectorAll('.k');
-    const l = document.getElementById('l');
-    const m = document.getElementById('m');
-    const n = document.getElementById('n');
-    const o = document.getElementById('o');
-    const p = document.getElementById('p');
-    const q = document.getElementById('q');
-    const r = document.getElementById('r');
-    const s = document.getElementById('s');
-    const t = document.getElementById('t');
-    const u = document.getElementById('u');
-    const v = document.getElementById('v');
-    const w = document.getElementById('w');
-    const x = document.getElementById('x');
-    const y = document.getElementById('y');
-    const z = document.getElementById('z');
-    const z1 = document.getElementById('z1');
-    const z2 = document.getElementById('z2');
+    const l = document.querySelectorAll('.l');
+    const m = document.querySelectorAll('.m');
+    const n = document.querySelectorAll('.n');
+    const o = document.querySelectorAll('.o');
+    const p = document.querySelectorAll('.p');
+    const q = document.querySelectorAll('.q');
+    const r = document.querySelectorAll('.r');
+    const s = document.querySelectorAll('.s');
+    const t = document.querySelectorAll('.t');
+    const u = document.querySelectorAll('.u');
+    const v = document.querySelectorAll('.v');
+    const w = document.querySelectorAll('.w');
+    const x = document.querySelectorAll('.x1');
+    const y = document.querySelectorAll('.y');
+    const z = document.querySelectorAll('.z');
+    const z1 = document.querySelectorAll('.z1');
+    const z2 = document.querySelectorAll('.z2');
     const animScroll = document.querySelectorAll('.animScroll');
-    const animScroll1 = document.getElementById('animScroll1');
+    const animScroll1 = document.querySelectorAll('.animScroll1');
     let timer = 0;
     let timer1 = 0;
      function minuteur(){
-        timer++
+        timer += 0.5;
         if(timer == 37){
             timer = 1
         }
@@ -126,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function(){
             anim.classList.add('cna');
         })
     }, 2000);
-        setInterval(minuteur,1000); 
+        setInterval(minuteur,500); 
     function minuteur1(){
         timer1++
         if(timer1 == 55){
@@ -134,76 +133,173 @@ document.addEventListener("DOMContentLoaded", function(){
         }
         switch (timer1){
             case 2:
-                l.classList.add("aScale")
+                l.forEach(function(l1){
+                    l1.classList.add("aScale")
+                })
                 break
             case 5 :
-                l.classList.remove("aScale")
-                m.classList.add("aScale")
+                l.forEach(function(l2){
+                    l2.classList.remove("aScale")
+                })
+                m.forEach(function(m1){
+                    m1.classList.add("aScale")
+                })
                 break
             case 8 :
-                m.classList.remove("aScale")
-                n.classList.add("aScale")
+                m.forEach(function(m2){
+                    m2.classList.remove("aScale")
+                })
+                n.forEach(function(n1){
+                    n1.classList.add("aScale")
+                })
                 break
             case 11: 
-                n.classList.remove("aScale");
-                o.classList.add("aScale");
+                n.forEach(function(n2){
+                  n2.classList.remove("aScale")
+                })
+                o.forEach(function(o1){
+                  o1.classList.add("aScale")
+                })
                 break
             case 14:
-                o.classList.remove("aScale");
-                p.classList.add("aScale");
+                o.forEach(function(o2){
+                   o2.classList.remove("aScale")
+                })
+                p.forEach(function(p1){
+                   p1.classList.add("aScale")
+                })
                 break
             case 17:
-                p.classList.remove("aScale");
-                q.classList.add("aScale");
+                p.forEach(function(p2){
+                    p2.classList.remove("aScale")
+                })
+                q.forEach(function(q1){
+                    q1.classList.add("aScale")
+                })
                 break
             case 20:
-                q.classList.remove("aScale");
-                r.classList.add("aScale");
+                q.forEach(function(q2){
+                    q2.classList.remove("aScale")
+                })
+                r.forEach(function(r1){
+                    r1.classList.add("aScale")
+                })
                 break
             case 23:
-                r.classList.remove("aScale");
-                s.classList.add("aScale");
+                r.forEach(function(r2){
+                    r2.classList.remove("aScale")
+                })
+                s.forEach(function(s1){
+                    s1.classList.add("aScale")
+                })
                 break
             case 26:
-                s.classList.remove("aScale");
-                t.classList.add("aScale");
+                s.forEach(function(s2){
+                    s2.classList.remove("aScale")
+                })
+                t.forEach(function(t1){
+                    t1.classList.add("aScale")
+                })
                 break
             case 29:
-                t.classList.remove("aScale");
-                u.classList.add("aScale");
+                t.forEach(function(t2){
+                    t2.classList.remove("aScale")
+                })
+                u.forEach(function(u1){
+                    u1.classList.add("aScale")
+                })
                 break
             case 35:
-                u.classList.remove("aScale");
-                v.classList.add("aScale");
+                u.forEach(function(u2){
+                    u2.classList.remove("aScale")
+                })
+                v.forEach(function(v1){
+                    v1.classList.add("aScale")
+                })
                 break
             case 38:
-                v.classList.remove("aScale");
-                w.classList.add("aScale");
+                v.forEach(function(v2){
+                    v2.classList.remove("aScale")
+                })
+                w.forEach(function(w1){
+                    w1.classList.add("aScale")
+                })
                 break
             case 41:
-                w.classList.remove("aScale");
-                x.classList.add("aScale");
+                w.forEach(function(w2){
+                    w2.classList.remove("aScale")
+                })
+                x.forEach(function(x1){
+                    x1.classList.add("aScale");
+                })
                 break
             case 44:
-                x.classList.remove("aScale");
-                y.classList.add("aScale");
+                x.forEach(function(x2){
+                    x2.classList.remove("aScale");
+                })
+                y.forEach(function(y1){
+                    y1.classList.add("aScale")
+                })
                 break
             case 47:
-                y.classList.remove("aScale");
-                z.classList.add("aScale");
+                y.forEach(function(y2){
+                    y2.classList.remove("aScale")
+                })
+                z.forEach(function(z1){
+                    z1.classList.add("aScale")
+                })
                 break
             case 50:
-                z.classList.remove("aScale");
-                z1.classList.add("aScale");
+                z.forEach(function(z2){
+                    z2.classList.remove("aScale")
+                })
+                z1.forEach(function(z11){
+                    z11.classList.add("aScale")
+                })
                 break
             case 53:
-                z1.classList.remove("aScale");
+                z1.forEach(function(z12){
+                    z12.classList.remove("aScale")
+                })
                 break
         }
         console.log(timer1);
     }
     setTimeout(() => {
-        animScroll1.classList.add('cna1');
+        animScroll1.forEach(function(anim1){
+            anim1.classList.add('cna1')
+        })
     }, 2000);
       setInterval(minuteur1, 1000);
+      animScroll.forEach(function(aner){
+       var position =  aner.getBoundingClientRect().left
+        console.log("x position parent" + position)
+      })
+
+        a.forEach(function(a2){
+            console.log()
+            var position = a2.getBoundingClientRect().x;
+            if(position == 12){
+                console.log("METY B TY RAY TY" )
+            }
+            console.log(position)
+          })
+
+
+
+
+
+     var ng = 100/12;
+     var ng1 = ng*2;
+     var ng2 = ng1 +ng;
+     var ng3 = ng2 +ng;
+     var ng4 = ng3 +ng;
+     var ng5 = ng4 +ng;
+     var ng6 = ng5 +ng;
+     var ng7 = ng6 +ng;
+     var ng8 = ng7 +ng;
+     var ng9 = ng8 +ng;
+     var ng10 = ng9 +ng;
+
+     console.log(ng, ng1, ng2, ng3, ng4, ng5, ng6, ng7,ng8, ng9,ng10)
 })
