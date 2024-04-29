@@ -2,6 +2,9 @@
     .bg-image1{
         height: 40vh;
     }  
+    .bg-image2{
+        height: 40vh;
+    }  
     .bg-image3{
         height: 40vh;
     }  
@@ -60,7 +63,7 @@
     .ts1{
         text-shadow: 1px 3px 10px rgba(0, 0, 0, 0.699);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.9em;
+        font-size: 1.5em;
     }
     .st{
         font-size: large;
@@ -71,17 +74,8 @@
         font-size: x-small;
         font-weight: bold;
     }
-    .bg-animation{
-        box-shadow: none;
-    }
-    .bg1-animation{
-        box-shadow: none;
-    }
-    .bg2-animation{
-        box-shadow: none;
-    }
-    .bg3-animation{
-        box-shadow: none;
+    .boxeIMG{
+        height: 30vh;
     }
 
 }
@@ -98,6 +92,12 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size:2.5em;
     }
+    .bg-image1{
+        height: 45vh;
+    }  
+    .bg-image2{
+        height: 45vh;
+    }  
     .bg-image3{
         height: 45vh;
     }  
@@ -135,11 +135,20 @@
             border-radius: 3em;
         }
     } 
+    .boxeIMG{
+        height: 45vh;
+    }
 }
 @media only screen and (max-width:1024px) and (min-width:769px){
     .ts{
         font-size: 3em;
     }
+    .bg-image1{
+        height: 65vh;
+    }  
+    .bg-image2{
+        height: 65vh;
+    }  
     .bg-image3{
         height: 65vh;
     } 
@@ -160,8 +169,24 @@
     .circuit{
         font-weight: 500;
     }
+    .boxeIMG{
+        height: 70%;
+    }
 }
 @media only screen and (min-width:1025px) and (max-width:1440px) {
+    .bg-image1{
+        height: 75vh;
+    }  
+    .bg-image2{
+        height: 75vh;
+    }
+    .bg-image3{
+        height: 75vh;
+    } 
+    .bg-image4{
+        background-size: 100vw 110vh;
+        height: 75vh;
+    }
     .st{
         font-size: x-large;
         font-weight: 900;
@@ -173,8 +198,14 @@
     .circuit{
         font-weight: 500;
     }
+    .boxeIMG{
+        height: 48vh;
+    }
 }
 @media only screen and (min-width:1441px) and (max-width:1920px){
+    .bg-image1{
+        height: 75vh;
+    }  
     .bg-image3{
         height: 75vh;
     } 
@@ -204,6 +235,9 @@
     }
 }
 @media only screen and (min-width:1921px) and (max-width:2560px){
+    .bg-image1{
+        height: 105vh;
+    }  
     .bg-image3{
         height: 105vh;
     } 

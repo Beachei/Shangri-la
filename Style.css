@@ -110,6 +110,31 @@ font-weight: 100;
         background-size: cover;
     }
 }
+.bg-animationM{
+    animation: bgm 10s infinite;
+}
+@keyframes bgm {
+    0%{
+        background-image: url(./Assets/Images/baobabs-bg.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Baobab1.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Charette.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Baobab.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/baobabs-bg.jpg);
+        background-size: cover;
+    }
+}
 /************************************************************************************ BAOBAB BACKGROUND  ************************************************************************************/
 /************************************************************************************ QUAD et MOTO BACKGROUND  ************************************************************************************/
 
@@ -138,6 +163,31 @@ font-weight: 100;
     }
     100%{
         background-image: url(./Assets/Images/Quad\ 2.jpg);
+        background-size: cover;
+    }
+}
+.bg1-animationM{
+    animation: bg1m 10s infinite;
+}
+@keyframes bg1m {
+    0%{
+        background-image: url(./Assets/Images/Quad.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Quad\ 1.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Moto.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Quad\ 2.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Quad.jpg);
         background-size: cover;
     }
 }
@@ -170,6 +220,31 @@ font-weight: 100;
         background-size: cover;
     }
 }
+.bg2-animationM{
+    animation: bg2m 10s infinite;
+}
+@keyframes bg2m {
+    0%{
+        background-image: url(./Assets/Images/Pirogue.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/île\ rocheuse.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Beach.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Corail\ 1.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Pirogue.jpg);
+        background-size: cover;
+    }
+}
 /************************************************************************************ VISITE L'ÎLE ROCHEUSE  ************************************************************************************/
 /************************************************************************************ PÊCHE DIURNE AVEC LES PÊCHEUR LOCAUX ************************************************************************************/
 .bg3-animation{
@@ -196,6 +271,31 @@ font-weight: 100;
     }
     100%{
         background-image: url(./Assets/Images/Poisson\ pêcher.jpg);
+        background-size: cover;
+    }
+}
+.bg3-animationM{
+    animation: bg3m 10s infinite;
+}
+@keyframes bg3m {
+    0%{
+        background-image: url(./Assets/Images/Pêche.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/Pêche\ diurne.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/Pêche\ nocture.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/Poisson\ pêcher.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Pêche.jpg);
         background-size: cover;
     }
 }
@@ -228,6 +328,31 @@ font-weight: 100;
         background-size: cover;
     }
 }
+.bg5-animationM{
+    animation: bg5m 10s infinite;
+}
+@keyframes bg5m {
+    0%{
+        background-image: url(./Assets/Images/Out\ the\ corail.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./Assets/Images/In\ the\ corail\ 2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./Assets/Images/In\ the\ corail.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./Assets/Images/In\ the\ corail\ 1.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./Assets/Images/Out\ the\ corail.jpg);
+        background-size: cover;
+    }
+}
 /************************************************************************************ SNORKELING DANS LE CORAIL ************************************************************************************/
 /************************************************************************************ PLONGÉE ET ACTIVITÉE NAUTIQUES ************************************************************************************/
 .bg6-animation{
@@ -254,6 +379,31 @@ font-weight: 100;
     }
     100%{
         background-image: url(./Assets/Images/Baleine.jpg);
+        background-size: cover;
+    }
+}
+.bg6-animationM{
+    animation: bg6m 10s infinite;
+}
+@keyframes bg6m {
+    0%{
+        background-image: url(../Assets/Images/Plongé.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../Assets/Images/Plongé1.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../Assets/Images/Plongé2.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../Assets/Images/Baleine.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../Assets/Images/Plongé.jpg);
         background-size: cover;
     }
 }
