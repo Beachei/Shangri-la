@@ -1,37 +1,59 @@
 
 document.addEventListener("DOMContentLoaded", function(){
     /* Restaurant */
-    const resto = document.getElementById("Resto&bar");
-    const cuisine = document.getElementById("Cuisine");
-    const restobtn = document.getElementById("restoBtn");
-    const cuisinebtn = document.getElementById("cuisineBtn");
-    const btntocuisine = document.getElementById("bottomBtn");
+    const resto = document.querySelectorAll(".Restobar");
+    const cuisine = document.querySelectorAll(".Cuisine");
+    const restobtn = document.querySelectorAll(".restoBtn");
+    const cuisinebtn = document.querySelectorAll(".cuisineBtn");
+    const btntocuisine = document.querySelectorAll(".bottomBtn");
 
+    console.log(resto)
+    console.log(cuisine)
+    console.log(restobtn)
+    console.log(cuisinebtn)
+    console.log(btntocuisine)
 
-    restobtn.addEventListener("click", ()=>{
-       resto.classList.add('d-block');
-       resto.classList.remove('d-none');
-       resto.classList.add('show');
-       cuisine.classList.add('d-none');
-       cuisine.classList.remove('d-block');
+   restobtn.forEach(function(restobtn1){
+        restobtn1.addEventListener("click", ()=>{
+            resto.forEach(function(resto1){
+             resto1.classList.add('d-block');
+             resto1.classList.remove('d-none');
+             resto1.classList.add('show');
+            })
+            cuisine.forEach(function(cuisine1){
+             cuisine1.classList.add('d-none');
+             cuisine1.classList.remove('d-block');
+            })
+         })
     })
-    btntocuisine.addEventListener("click", ()=>{
-        cuisine.classList.remove('d-none');
-        cuisine.classList.add('d-block');
-        cuisine.classList.add('show');
-        resto.classList.remove('d-block');
-        resto.classList.add('d-none');
+    btntocuisine.forEach(function(btntocuisine1){
+        btntocuisine1.addEventListener("click", ()=>{
+            cuisine.forEach(function(cuisine1){
+                cuisine1.classList.remove('d-none');
+                cuisine1.classList.add('d-block');
+                cuisine1.classList.add('show');
+               })
+               resto.forEach(function(resto1){
+                resto1.classList.remove('d-block');
+                resto1.classList.add('d-none');
+               })
+         })
     })
+    cuisinebtn.forEach(function(cuisinebtn1){
+        cuisinebtn1.addEventListener("click", ()=> {
+            cuisine.forEach(function(cuisine1){
+                cuisine1.classList.remove('d-none');
+                cuisine1.classList.add('d-block');
+                cuisine1.classList.add('show');
+               })
+               resto.forEach(function(resto1){
+                resto1.classList.remove('d-block');
+                resto1.classList.add('d-none');
+               })
+        })
+      })
 
-    cuisinebtn.addEventListener("click", ()=> {
-        cuisine.classList.remove('d-none');
-        cuisine.classList.add('d-block');
-        cuisine.classList.add('show');
-        resto.classList.remove('d-block');
-        resto.classList.add('d-none');
+
     })
-
-
-})
    
 

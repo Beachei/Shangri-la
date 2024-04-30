@@ -43,6 +43,10 @@ font-weight: 100;
     background-image: url(./Assets/Images/4856.jpg);
     background-size: cover
 }
+.nosCuisine-bg{
+    background-image: url(./Assets/Images/2866.jpg);
+    background-size: cover
+}
 .contact-bg{
     background-image:url(./Assets/Images/4522.jpg);
     background-size: cover;
