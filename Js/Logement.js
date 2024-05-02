@@ -121,5 +121,26 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
             }
 
+    /* Réservation */
+    const adulteNumber = document.querySelector('.adulte')
+    const childNumber = document.querySelector('.child')
+    const moins = document.querySelector('.moins')
+    const plus = document.querySelector('.plus')
+    plus.addEventListener('click', function(){
+        childNumber.value++;
+        console.log(childNumber.value)
+    })
+    moins.addEventListener('click', function(){
+        childNumber.value--;
+        if (childNumber.value <= 0){
+            childNumber.value = 0;
+        }
+        console.log(childNumber.value)
+    })
+    
+    console.log(childNumber.value)
+    console.log(adulteNumber)
+    console.log(childNumber)
+
 
 })

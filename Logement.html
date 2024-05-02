@@ -18,7 +18,9 @@
                <nav class="d-flex col-12 col-lg-11 h-50">
                     <div class="col-2 h-75 mt-3 mt-sm-0 col-xxl-3 d-flex align-items-center">
                         <div>
-                            <img class="btnscale logo"  src="./Assets/Logo/Ambatomilo logo no bg.png" alt="">
+                            <a href="./index.html">
+                                <img class="btnscale logo"  src="./Assets/Logo/Ambatomilo logo no bg.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="col-10 col-xxl-9  h-75 d-flex align-items-center">
@@ -67,7 +69,7 @@
         </div>
         <!-------------------------------------- HEADER -------------------------------------------------------------->
         <!-------------------------------------- BODY -------------------------------------------------------------->
-        <div class="container-fluid d-sm-block d-none ">
+<!--         <div class="container-fluid d-sm-block d-none ">
             <div class="d-flex margin justify-content-center ">
                 <div class="col-12 col-xl-10 col-xxxl-8 bg-white shadow radius-top">
                     <div class="py-5 mt-lg-5">
@@ -485,6 +487,74 @@
                         </div>
                     </div>
                 </div>
+        </div>
+        <div> -->
+            <div class="d-block d-sm-none container-fluid">
+                <div>
+                    <h1 class="text-center titre">Réservation</h1>
+                </div>
+                <form action="">
+                    <div class="d-flex align-items-end ">
+                        <label for="name" class="fw-bold col-2">Nom:</label>
+                        <input type="text" class="border-top-0 border-start-0 border-end-0" id="name" name="name" required>
+                    </div>
+                             <br><br>
+                    <div class="d-flex align-items-end ">
+                        <label for="2ndname" class="fw-bold col-3">Prénom:</label>
+                        <input type="text" class="border-top-0 border-start-0 border-end-0" id="2ndname" name="2ndname" required>
+                    </div>
+                    <br><br>
+                    
+                    <!-- Champ pour l'email -->
+                    <div class="d-flex align-items-end ">
+                        <label for="email" class="fw-bold col-2 ">Email:</label>
+                        <input type="email" class="border-top-0 border-start-0 border-end-0" id="email" name="email" required>
+                    </div>
+                    <br><br>
+                    
+                    <!-- Champ pour les dates de séjour -->
+                    <div class="d-flex align-items-end ">
+                        <label for="checkin" class="fw-bold col-4">Date d'arrivée:</label>
+                        <input type="date" class="col-8" id="checkin" name="checkin" required>
+                    </div>
+                    <br><br>
+                    <div class="d-flex align-items-end">
+                        <label for="checkout" class="fw-bold col-4">Date de départ:</label>
+                        <input type="date" class="col-8" id="checkout" name="checkout" required>
+                    </div>
+                    <br><br>
+                    
+                    <!-- Champ pour le nombre de personnes -->
+                    <div class="d-flex align-items-end">
+                        <label for="adulte" class="fw-bold col-5">Nombre d'adulte:</label>
+                        <div class="col-8">
+                           <input type="number" class="adulte border-top-0 border-start-0 border-end-0" id="adulte" name="adulte" min="1" required>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="d-flex align-items-end">
+                        <label for="child" class="fw-bold col-5">Nombre d'enfant:</label>
+                        <div class="d-flex border-1 border-black">
+                            <input type="text" class="child col-2 fw-bold" id="child" name="child" min="0">
+                            <button type="button" class="plus offset-1 ">+</button>
+                            <button type="button" class="moins offset-1">-</button>
+                        </div>
+                    </div>
+                    <br><br>
+                    <!-- Champ pour chambre -->
+                    <div class="d-flex align-items-end">
+                        <label for="selection" class="fw-bold col-3">Logement</label>
+                        <select name="selection" id="selection" class="border-top-0 border-start-0 border-end-0">
+                            <option value="1">BUNGALLOW SIMPLE</option>
+                            <option value="2">BUNGALLOW FAMILIALE</option>
+                            <option value="3">VILLA</option>
+                        </select>
+                    </div>
+                    <br><br>
+    
+                    <button type="submit">Réserver</button>
+                </form>
+            </div>
         </div>
         <!-------------------------------------- BODY -------------------------------------------------------------->
         <!-------------------------------------- FOOTER -------------------------------------------------------------->

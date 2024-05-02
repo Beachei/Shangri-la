@@ -3,6 +3,9 @@
         font-size: small;
         color: black;
     }
+    .nosCuisine-bg{
+        background-position: 20%;
+    }
     
     .bg-image{
         background-size: cover;
@@ -85,7 +88,7 @@
         font-size: 1.3em;
     }
     .ts3{
-        text-shadow: 1px 3px 10px rgba(0, 0, 0, 0.664);
+        text-shadow: 1px 3px 10px rgb(0, 0, 0);
     }
     .st{
         font-size: large;
@@ -124,6 +127,7 @@
     }
     .bg-image{
         height: 45vh;
+        background-size: cover;
     }  
     .bg-image1{
         height: 45vh;
@@ -178,6 +182,7 @@
     }
     .bg-image{
         height: 65vh;
+        background-size: cover;
     }  
     .bg-image1{
         height: 65vh;
@@ -208,10 +213,14 @@
     .boxeIMG{
         height: 70%;
     }
+    .size{
+        font-size: larger;
+    }
 }
 @media only screen and (min-width:1025px) and (max-width:1440px) {
     .bg-image{
         height: 75vh;
+        background-size: cover;
     }  
     .bg-image1{
         height: 75vh;
