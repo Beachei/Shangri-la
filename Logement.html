@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./Bootstrap/responsive.css">
     <link rel="stylesheet" href="./Bootstrap/burger.css">
     <link rel="shortcut icon" href="./Assets/Logo/Ambatomilo logo no bg.png" type="image/x-icon">
+    <script src="https://js.stripe.com/v3/" async></script>
     <title>Nos Logement</title>
 </head>
 <body class="show">
@@ -515,29 +516,31 @@
                     <!-- Champ pour les dates de séjour -->
                     <div class="d-flex align-items-end ">
                         <label for="checkin" class="fw-bold col-4">Date d'arrivée:</label>
-                        <input type="date" class="col-8" id="checkin" name="checkin" required>
+                        <input type="date" class="col-6" id="checkin" name="checkin" required>
                     </div>
                     <br><br>
                     <div class="d-flex align-items-end">
                         <label for="checkout" class="fw-bold col-4">Date de départ:</label>
-                        <input type="date" class="col-8" id="checkout" name="checkout" required>
+                        <input type="date" class="col-6" id="checkout" name="checkout" required>
                     </div>
                     <br><br>
                     
                     <!-- Champ pour le nombre de personnes -->
                     <div class="d-flex align-items-end">
                         <label for="adulte" class="fw-bold col-5">Nombre d'adulte:</label>
-                        <div class="col-8">
-                           <input type="number" class="adulte border-top-0 border-start-0 border-end-0" id="adulte" name="adulte" min="1" required>
+                        <div class="d-flex">
+                           <input type="text" class="adulte col-2 fw-bold" id="adulte" name="adulte" min="1" required>
+                           <button type="button" class="plusA offset-1 ">+</button>
+                           <button type="button" class="moinsA offset-1">-</button>
                         </div>
                     </div>
                     <br><br>
                     <div class="d-flex align-items-end">
                         <label for="child" class="fw-bold col-5">Nombre d'enfant:</label>
-                        <div class="d-flex border-1 border-black">
+                        <div class="d-flex">
                             <input type="text" class="child col-2 fw-bold" id="child" name="child" min="0">
-                            <button type="button" class="plus offset-1 ">+</button>
-                            <button type="button" class="moins offset-1">-</button>
+                            <button type="button" class="plusC offset-1 ">+</button>
+                            <button type="button" class="moinsC offset-1">-</button>
                         </div>
                     </div>
                     <br><br>
@@ -551,8 +554,18 @@
                         </select>
                     </div>
                     <br><br>
+                    <div class="d-flex align-items-end">
+                        <label for="selection" class="fw-bold col-3">Logement</label>
+                        <select name="selection" id="selection" class="border-top-0 border-start-0 border-end-0">
+                            <option value="1">BUNGALLOW SIMPLE</option>
+                            <option value="2">BUNGALLOW FAMILIALE</option>
+                            <option value="3">VILLA</option>
+                        </select>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <br><br>
     
-                    <button type="submit">Réserver</button>
+                    <button id="reserve" type="submit"> <a href="https://buy.stripe.com/test_cN25lQ7PM45u3Ti6oo">Réserver</a></button>
                 </form>
             </div>
         </div>
@@ -591,10 +604,10 @@
             </div>
             <div class="py-2 "></div>
           </div>
+          <script></script>
         <!-------------------------------------- FOOTER -------------------------------------------------------------->
         <script src="./Bootstrap/bootstrap.js"></script>
         <script src="./Js/Logement.js"></script>
         <script src="./Js/Nav.js"></script>
-    
 </body>
 </html>

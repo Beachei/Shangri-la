@@ -124,18 +124,31 @@ document.addEventListener("DOMContentLoaded", ()=>{
     /* Réservation */
     const adulteNumber = document.querySelector('.adulte')
     const childNumber = document.querySelector('.child')
-    const moins = document.querySelector('.moins')
-    const plus = document.querySelector('.plus')
-    plus.addEventListener('click', function(){
+    const moinsC = document.querySelector('.moinsC')
+    const plusC = document.querySelector('.plusC')
+    const moinsA = document.querySelector('.moinsA')
+    const plusA = document.querySelector('.plusA')
+    plusC.addEventListener('click', function(){
         childNumber.value++;
         console.log(childNumber.value)
     })
-    moins.addEventListener('click', function(){
+    moinsC.addEventListener('click', function(){
         childNumber.value--;
         if (childNumber.value <= 0){
             childNumber.value = 0;
         }
         console.log(childNumber.value)
+    })
+    plusA.addEventListener('click', function(){
+        adulteNumber.value++;
+        console.log(childNumber.value)
+    })
+    moinsA.addEventListener('click', function(){
+        adulteNumber.value--;
+        if (adulteNumber.value <= 0){
+            adulteNumber.value = 0;
+        }
+        console.log(adulteNumber.value)
     })
     
     console.log(childNumber.value)
