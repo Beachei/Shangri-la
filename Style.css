@@ -1,7 +1,8 @@
 /************************************************************************************* Accueil **************************************************************************/
 .bg-image{
-    background-image: url(./Assets/Images/201.jpg);
-    background-size: 100vw 130vh;
+    background: url(./Assets/Images/201.jpg) no-repeat;
+    background-size:100% 190%;
+    background-position: 50%;
 /*     height: 85vh; */
 }
 .logo{
@@ -38,18 +39,22 @@ font-weight: 100;
 .galerie-bg{
     background-image: url(./Assets/Images/4625.jpg);
     background-size: cover;
+    background-position: center;
 }
 .ourstory-bg{
-    background-image: url(./Assets/Images/4856.jpg);
-    background-size: cover
+    background: url(./Assets/Images/4856.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .nosCuisine-bg{
     background-image: url(./Assets/Images/2866.jpg);
-    background-size: cover
+    background-size: cover;
+    background-position: center;
 }
 .contact-bg{
     background-image:url(./Assets/Images/4522.jpg);
     background-size: cover;
+    background-position: center;
 }
 .footer-bg{
     background-color:rgba(2, 2, 3, 0.897);
